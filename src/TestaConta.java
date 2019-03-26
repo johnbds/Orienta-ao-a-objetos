@@ -19,11 +19,15 @@ public class TestaConta {
         c1.agencia = "1234";
         c1.numero = "5432";
         
+        System.out.println("Saldo de c1: "+ c1.saldo);
+        
         Conta c2 = new Conta();
         c2.saldo = 500;
         c2.titular = "Michael Faleiro";
         c2.agencia = "007";
         c2.numero = "4567";
+        
+        
         
 
     }
